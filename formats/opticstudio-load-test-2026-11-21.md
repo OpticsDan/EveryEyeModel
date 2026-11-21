@@ -32,5 +32,5 @@ OpticStudio's own dispersion model.
 2. OpticStudio has no ENPD operand; the entrance pupil diameter is EPDI.
 3. The VERS line in every file is the neutral form. Nothing was saved, so nothing needed scrubbing.
 
-**Not tested:** the CODE V files (no CODE V licence), and OpticStudio 19.4, where the file layout
+**Not tested:** the CODE V files (not run), and OpticStudio 19.4, where the file layout
 came from.
