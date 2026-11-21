@@ -100,6 +100,11 @@ Every value here is copied from the source named on its page and was checked aga
 when added. If you find a difference from a primary source, open an issue with the reference. These
 are average, idealised eyes: none of them describes a particular person.
 
+## Notes
+
+[`docs/notes/`](docs/notes) holds two summaries for designers: the models on one page, and the
+OpticStudio lessons from loading them.
+
 ## How this was made
 
 Every page, table, data file, generated format, script, test and figure here was written
