@@ -61,8 +61,14 @@ data, one model per file, is in [`json/`](json).
     slightly from the paper. The CODE V file and the JSON carry the exact published indices.
   - Le Grand: the one published index. The model has no dispersion, so the Vd of 50 is only a
     placeholder; use a single wavelength.
-- Built from a file layout that loads in OpticStudio 19.4. **These particular files have not yet been
-  opened in OpticStudio**; if one fails to load, please open an issue with the version.
+- **Load-tested in OpticStudio 26.1 SP4 on 2026-11-21:** all seven files load, the entrance pupil
+  reads 4.000 mm, and chief and marginal rays trace at every field with no errors or vignetting.
+  Focal lengths match the table below. Record:
+  [`opticstudio-load-test-2026-11-21.md`](opticstudio-load-test-2026-11-21.md).
+- **Checking the focal length of an accommodated eye:** use EFLY from surface 1 to the last
+  refracting surface. The EFFL operand reads long for an eye that is not focused at infinity
+  (the accommodated Le Grand eye and the Arizona eye at 2, 4 and 6 D), because their paraxial
+  focus for a distant object lies in front of the retina.
 
 ## CODE V (`.seq`)
 
