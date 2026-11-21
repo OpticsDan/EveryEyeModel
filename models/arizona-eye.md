@@ -4,6 +4,18 @@ Four conic surfaces with dispersion, tuned to match average clinical levels of o
 aberration, and adjustable for accommodation. Well suited to checking reflections from the cornea
 and lens, and to designs that must perform like a real eye.
 
+## Ray trace
+
+![A = 0 D, 10° field, 589 nm](../images/arizona-eye-0D.png)
+
+*A = 0 D, 10° field, 589 nm.*
+
+![A = 4 D, 10° field](../images/arizona-eye-4D.png)
+
+*A = 4 D, 10° field. The object is distant, so the rays focus in front of the retina.*
+
+Drawn to scale by an exact ray tracer from the prescription below: 4 mm entrance pupil, grey rays on axis, blue rays at the field angle shown, light from the left.
+
 ## Prescription
 
 A is the accommodation in dioptres (0 for a relaxed eye). Indices are nd; Abbe numbers are Vd.
@@ -39,6 +51,11 @@ the pupil you need.
 ## Files
 
 - [`data/arizona-eye-0D.csv`](../data/arizona-eye-0D.csv): the relaxed eye, A = 0.
+- arizona-eye-0D: [Zemax `.zmx`](../formats/zemax/arizona-eye-0D.zmx), [CODE V `.seq`](../formats/codev/arizona-eye-0D.seq), [JSON](../formats/json/arizona-eye-0D.json)
+- arizona-eye-2D: [Zemax `.zmx`](../formats/zemax/arizona-eye-2D.zmx), [CODE V `.seq`](../formats/codev/arizona-eye-2D.seq), [JSON](../formats/json/arizona-eye-2D.json)
+- arizona-eye-4D: [Zemax `.zmx`](../formats/zemax/arizona-eye-4D.zmx), [CODE V `.seq`](../formats/codev/arizona-eye-4D.seq), [JSON](../formats/json/arizona-eye-4D.json)
+- arizona-eye-6D: [Zemax `.zmx`](../formats/zemax/arizona-eye-6D.zmx), [CODE V `.seq`](../formats/codev/arizona-eye-6D.seq), [JSON](../formats/json/arizona-eye-6D.json)
+- Python: every model is in [`python/everyeyemodel.py`](../python/everyeyemodel.py).
 
 ## Sources
 

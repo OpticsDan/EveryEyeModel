@@ -41,6 +41,9 @@ Every model is also ready to load, generated from the tables in `data/`:
 - **CODE V:** [`.seq` files](formats/codev) with a private glass per medium, exact at the published
   wavelengths.
 
+Each model page also shows a to-scale ray trace of the eye ([`images/`](images)), drawn from its
+prescription by an exact ray tracer.
+
 [`formats/README.md`](formats/README.md) lists every file and says how each format handles the
 indices, the stop and dispersion, and what has not been checked yet.
 
