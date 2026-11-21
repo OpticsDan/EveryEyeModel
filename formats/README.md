@@ -79,8 +79,15 @@ data, one model per file, is in [`json/`](json).
   two-term Cauchy fit through nd and Vd. Le Grand's are the single published index at every
   wavelength.
 - The stop (`STO`) is on the lens front surface, and conic constants follow `CON` as `K`.
-- **These files have not yet been opened in CODE V.** They follow CODE V's sequence-file commands, but
-  nobody has run them. If one fails, please open an issue with the error line.
+- **Not yet run in CODE V itself.** On 2026-11-21 all seven files were imported into OpticStudio 26.1
+  through its bundled CODE V converter macro: every command was read as intended, every private
+  glass kept its indices exactly, and focal lengths and the 4 mm pupil matched
+  ([record](opticstudio-load-test-2026-11-21.md)). If one fails in CODE V, please open an issue with
+  the error line.
+- **Importing into OpticStudio:** the converter macro ("CodeV to OpticStudio Converter.zpl", 2019)
+  works in 26.1 but warns about a missing `.zos` template and opens a Save As dialog; save as
+  `.zmx`. Run it once per file. It writes each private glass as a table glass in your Glasscat
+  folder.
 
 ## Checks run on every generation
 
