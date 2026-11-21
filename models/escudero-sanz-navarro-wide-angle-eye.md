@@ -58,3 +58,8 @@ lens front surface. Size it for the entrance pupil your study needs; the example
 - Values here as implemented in the ZOSPy example "Escudero-Sanz eye model"
   ([documentation](https://zospy.readthedocs.io/en/latest/examples/Escudero-Sanz%20eye%20model/Escudero-Sanz%20eye%20model.html)).
   Checked 2026-11-21. Not yet checked line by line against the 1999 paper itself.
+
+---
+
+*Written by AI (Claude, by Anthropic) at Dan Gray's direction, from the sources above. See
+[How this was made](../README.md#how-this-was-made).*

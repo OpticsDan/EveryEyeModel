@@ -65,3 +65,8 @@ the pupil you need.
   Visual Optics Lab, University of Arizona
   ([PDF](https://wp.optics.arizona.edu/visualopticslab/wp-content/uploads/sites/52/2021/08/Class02_21-Schematic-Eyes-Ametropia.pdf)).
   Checked 2026-11-21.
+
+---
+
+*Written by AI (Claude, by Anthropic) at Dan Gray's direction, from the sources above. See
+[How this was made](../README.md#how-this-was-made).*

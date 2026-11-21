@@ -1,5 +1,8 @@
 # Downloads: every model in Python, Zemax OpticStudio and CODE V
 
+> **Written by AI.** These files, and the script that generates them, were written by an AI
+> assistant (Claude, by Anthropic) at Dan Gray's direction.
+
 These files are **generated** from the tables in [`data/`](../data) by
 [`scripts/make_formats.py`](../scripts/make_formats.py). Never edit them by hand: change the data,
 then run `python3 scripts/make_formats.py`. `python3 -m unittest discover tests` reads every Zemax

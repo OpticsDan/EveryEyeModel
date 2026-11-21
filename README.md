@@ -3,6 +3,8 @@
 Published schematic eye models, written out as lens prescriptions you can type into a lens design
 program.
 
+> **Written by AI.** The text, files, code and figures in this repository were written by an AI assistant (Claude, by Anthropic) at Dan Gray's direction. The prescriptions themselves are published data, each checked against the source named on its page; see [How this was made](#how-this-was-made).
+
 Every ophthalmoscope, fundus camera or retinal imager design has an eye in it. The model you choose
 for that eye decides which questions the design can answer. This repository collects the common
 published models in one consistent format, each with its source, so you can pick the right one and
@@ -97,6 +99,14 @@ against that source.
 Every value here is copied from the source named on its page and was checked against that source
 when added. If you find a difference from a primary source, open an issue with the reference. These
 are average, idealised eyes: none of them describes a particular person.
+
+## How this was made
+
+Every page, table, data file, generated format, script, test and figure here was written
+by an AI assistant (Claude, by Anthropic), directed by Dan Gray. Values were copied from the
+sources named on each model page and checked against them; where a check is still to do, the page
+says so. Treat it as you would any secondary source: confirm against the primary reference before
+relying on a number.
 
 ## Licence
 

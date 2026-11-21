@@ -46,3 +46,8 @@ form when you need the image-space index.
 The 60 D paraxial eye is the standard first-order stand-in for the eye; see any visual optics
 text, for example D. A. Atchison and G. Smith, *Optics of the Human Eye* (Butterworth-Heinemann,
 2000), on reduced eyes.
+
+---
+
+*Written by AI (Claude, by Anthropic) at Dan Gray's direction, from the sources above. See
+[How this was made](../README.md#how-this-was-made).*
