@@ -43,6 +43,7 @@ from memory.
 | Liou and Brennan eye (1997) | Gradient-index lens and a decentred pupil; the anatomical reference |
 | Atchison eye (2006) | A gradient-index lens model |
 | Goncharov and Dainty eye (2007) | A gradient-index lens model |
+| Díaz, Pizarro and Arasa aging eye (2008) | An age-dependent emmetropic eye with a single dispersive gradient-index lens profile; "Single dispersive gradient-index profile for the aging human lens", *J. Opt. Soc. Am. A* **25**(1), 250 (2008), [doi:10.1364/JOSAA.25.000250](https://doi.org/10.1364/JOSAA.25.000250) |
 | Walker eye (Bruce H. Walker) | A design-oriented eye for visual instruments; one practitioner's step between the paraxial eye and Liou-Brennan. Source to confirm, likely Walker's *Optical Design for Visual Systems* (SPIE) |
 
 Suggestions for more, with a citation, are welcome as issues. A model with no published
