@@ -30,6 +30,20 @@ or the specification needs it.
 | Arizona eye | 4 | conic | Abbe numbers | any level, by formula | [model](models/arizona-eye.md), [csv at 0 D](data/arizona-eye-0D.csv) |
 | Escudero-Sanz and Navarro wide-angle eye (1999) | 4 + curved retina | conic | indices at 4 wavelengths | no | [model](models/escudero-sanz-navarro-wide-angle-eye.md), [csv](data/escudero-sanz-navarro-wide-angle-eye.csv) |
 
+## Downloads: Python, Zemax and CODE V
+
+Every model is also ready to load, generated from the tables in `data/`:
+
+- **Python:** one standard-library file, [`python/everyeyemodel.py`](python/everyeyemodel.py), with
+  every model and the Arizona eye at any accommodation; plus one [JSON file](formats/json) per model.
+- **Zemax OpticStudio:** sequential [`.zmx` files](formats/zemax), stop at the iris, 4 mm entrance
+  pupil, real ray aiming.
+- **CODE V:** [`.seq` files](formats/codev) with a private glass per medium, exact at the published
+  wavelengths.
+
+[`formats/README.md`](formats/README.md) lists every file and says how each format handles the
+indices, the stop and dispersion, and what has not been checked yet.
+
 ## Still to add
 
 Each is added once its values are checked against the primary source. Nothing is published here

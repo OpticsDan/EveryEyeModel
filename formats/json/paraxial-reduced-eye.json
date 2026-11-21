@@ -1,0 +1,33 @@
+{
+  "id": "paraxial-reduced-eye",
+  "title": "Paraxial (reduced) eye, 60 D",
+  "source": "The standard 60 D reduced eye. See models/paraxial-reduced-eye.md.",
+  "wavelengths_nm": [
+    587.6
+  ],
+  "primary_nm": 587.6,
+  "stop_surface": 1,
+  "surfaces": [
+    {
+      "name": "Ideal lens",
+      "power_D": 60.0,
+      "focal_length_mm": 16.666667,
+      "thickness_mm": 16.666667,
+      "medium": "air",
+      "index": {
+        "587.6": 1.0
+      }
+    },
+    {
+      "name": "Image plane",
+      "radius_mm": null,
+      "conic": 0.0,
+      "thickness_mm": null,
+      "medium": null,
+      "index": null
+    }
+  ],
+  "notes": [
+    "One ideal lens in air. Enter it as a paraxial (ideal) surface of focal length 16.667 mm; there are no Zemax or CODE V files for it here because a paraxial surface is one line in either program."
+  ]
+}

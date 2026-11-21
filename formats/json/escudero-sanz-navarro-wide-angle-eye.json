@@ -1,0 +1,79 @@
+{
+  "id": "escudero-sanz-navarro-wide-angle-eye",
+  "title": "Escudero-Sanz and Navarro wide-angle eye (1999)",
+  "source": "I. Escudero-Sanz and R. Navarro, J. Opt. Soc. Am. A 16(8), 1881-1891 (1999); values as in the ZOSPy example implementation, not yet checked against the paper. See models/escudero-sanz-navarro-wide-angle-eye.md.",
+  "wavelengths_nm": [
+    458.0,
+    543.0,
+    589.3,
+    632.8
+  ],
+  "primary_nm": 543.0,
+  "stop_surface": 3,
+  "surfaces": [
+    {
+      "name": "Cornea front",
+      "radius_mm": 7.72,
+      "conic": -0.26,
+      "thickness_mm": 0.55,
+      "medium": "cornea",
+      "index": {
+        "458.0": 1.3828,
+        "543.0": 1.3777,
+        "589.3": 1.376,
+        "632.8": 1.3747
+      }
+    },
+    {
+      "name": "Cornea back",
+      "radius_mm": 6.5,
+      "conic": 0.0,
+      "thickness_mm": 3.05,
+      "medium": "aqueous",
+      "index": {
+        "458.0": 1.3445,
+        "543.0": 1.3391,
+        "589.3": 1.3374,
+        "632.8": 1.336
+      }
+    },
+    {
+      "name": "Lens front",
+      "radius_mm": 10.2,
+      "conic": -3.1316,
+      "thickness_mm": 4.0,
+      "medium": "lens",
+      "index": {
+        "458.0": 1.4292,
+        "543.0": 1.4222,
+        "589.3": 1.42,
+        "632.8": 1.4183
+      }
+    },
+    {
+      "name": "Lens back",
+      "radius_mm": -6.0,
+      "conic": -1.0,
+      "thickness_mm": 16.3202,
+      "medium": "vitreous",
+      "index": {
+        "458.0": 1.3428,
+        "543.0": 1.3377,
+        "589.3": 1.336,
+        "632.8": 1.3347
+      }
+    },
+    {
+      "name": "Retina",
+      "radius_mm": -12.0,
+      "conic": 0.0,
+      "thickness_mm": null,
+      "medium": null,
+      "index": null
+    }
+  ],
+  "notes": [
+    "Indices are published at four wavelengths; the design wavelength is 543 nm.",
+    "The stop (iris) is placed at the lens front surface, as in common implementations."
+  ]
+}
