@@ -43,8 +43,10 @@ from memory.
 | Liou and Brennan eye (1997) | Gradient-index lens and a decentred pupil; the anatomical reference |
 | Atchison eye (2006) | A gradient-index lens model |
 | Goncharov and Dainty eye (2007) | A gradient-index lens model |
+| Walker eye (Bruce H. Walker) | A design-oriented eye for visual instruments; one practitioner's step between the paraxial eye and Liou-Brennan. Source to confirm, likely Walker's *Optical Design for Visual Systems* (SPIE) |
 
-Suggestions for more, with a citation, are welcome as issues.
+Suggestions for more, with a citation, are welcome as issues. A model with no published
+prescription can be listed here once someone finds where it was written down.
 
 ## Contributing
 
