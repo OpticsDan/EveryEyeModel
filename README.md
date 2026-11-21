@@ -30,9 +30,27 @@ or the specification needs it.
 | Arizona eye | 4 | conic | Abbe numbers | any level, by formula | [model](models/arizona-eye.md), [csv at 0 D](data/arizona-eye-0D.csv) |
 | Escudero-Sanz and Navarro wide-angle eye (1999) | 4 + curved retina | conic | indices at 4 wavelengths | no | [model](models/escudero-sanz-navarro-wide-angle-eye.md), [csv](data/escudero-sanz-navarro-wide-angle-eye.csv) |
 
-**Still to add,** each once its values are checked against the primary source: Gullstrand's No. 1
-exact eye (1909), the Gullstrand-Emsley eye, and the Liou and Brennan eye (1997), whose lens has a
-gradient index. Nothing is published here from memory.
+## Still to add
+
+Each is added once its values are checked against the primary source. Nothing is published here
+from memory.
+
+| Model | Why it matters |
+|---|---|
+| Gullstrand No. 1 exact eye (1909) | The classic six-surface reference, relaxed and accommodated, with a two-shell lens |
+| Gullstrand-Emsley eye | A simplified three-surface version, for teaching and first-order checks |
+| Pomerantzeff wide-angle eye (1971, 1984) | The first eye built for wide-field fundus imaging; a many-shell lens, about 15 years before the Navarro wide-angle eye |
+| Liou and Brennan eye (1997) | Gradient-index lens and a decentred pupil; the anatomical reference |
+| Atchison eye (2006) | A gradient-index lens model |
+| Goncharov and Dainty eye (2007) | A gradient-index lens model |
+
+Suggestions for more, with a citation, are welcome as issues.
+
+## Contributing
+
+Open an issue or a pull request with the model's prescription and the **primary source** it comes
+from (paper, book and table). A new model is merged once a second person has checked its values
+against that source.
 
 ## Conventions
 
