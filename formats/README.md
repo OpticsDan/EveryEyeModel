@@ -9,7 +9,7 @@ then run `python3 scripts/make_formats.py`. `python3 -m unittest discover tests`
 and CODE V file back in and checks it against the data.
 
 To download one file, open it on GitHub and use the download button, or fetch its raw address, e.g.
-`https://raw.githubusercontent.com/Optoguy/EveryEyeModel/main/formats/zemax/arizona-eye-0D.zmx`.
+`https://raw.githubusercontent.com/OpticsDan/EveryEyeModel/main/formats/zemax/arizona-eye-0D.zmx`.
 
 ## What is here
 
