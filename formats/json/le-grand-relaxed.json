@@ -1,0 +1,64 @@
+{
+  "id": "le-grand-relaxed",
+  "title": "Le Grand full theoretical eye, relaxed",
+  "source": "Y. Le Grand and S. G. El Hage, Physiological Optics (Springer, 1980); values as tabulated in J. Schwiegerling, 'Schematic Eyes and Ametropia', University of Arizona course notes. See models/le-grand-full-theoretical-eye.md.",
+  "wavelengths_nm": [
+    587.6
+  ],
+  "primary_nm": 587.6,
+  "stop_surface": 3,
+  "surfaces": [
+    {
+      "name": "Cornea front",
+      "radius_mm": 7.8,
+      "conic": 0.0,
+      "thickness_mm": 0.55,
+      "medium": "cornea",
+      "index": {
+        "587.6": 1.3771
+      }
+    },
+    {
+      "name": "Cornea back",
+      "radius_mm": 6.5,
+      "conic": 0.0,
+      "thickness_mm": 3.05,
+      "medium": "aqueous",
+      "index": {
+        "587.6": 1.3374
+      }
+    },
+    {
+      "name": "Lens front",
+      "radius_mm": 10.2,
+      "conic": 0.0,
+      "thickness_mm": 4.0,
+      "medium": "lens",
+      "index": {
+        "587.6": 1.42
+      }
+    },
+    {
+      "name": "Lens back",
+      "radius_mm": -6.0,
+      "conic": 0.0,
+      "thickness_mm": 16.59655,
+      "medium": "vitreous",
+      "index": {
+        "587.6": 1.336
+      }
+    },
+    {
+      "name": "Retina",
+      "radius_mm": -13.4,
+      "conic": 0.0,
+      "thickness_mm": null,
+      "medium": null,
+      "index": null
+    }
+  ],
+  "notes": [
+    "The source gives one set of indices and no wavelength; they are filed at 587.6 nm. The model has no dispersion: use one wavelength.",
+    "The stop (iris) is placed at the lens front surface."
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "arizona-eye-0D",
+  "title": "Arizona eye, 0 D accommodation",
+  "source": "J. Schwiegerling, Field Guide to Visual and Ophthalmic Optics (SPIE Press, 2004); values as tabulated in his University of Arizona course notes. See models/arizona-eye.md.",
+  "wavelengths_nm": [
+    656.3,
+    587.6,
+    486.1
+  ],
+  "primary_nm": 587.6,
+  "stop_surface": 3,
+  "accommodation_D": 0,
+  "surfaces": [
+    {
+      "name": "Cornea front",
+      "radius_mm": 7.8,
+      "conic": -0.25,
+      "thickness_mm": 0.55,
+      "medium": "cornea",
+      "index": {
+        "656.3": 1.375014,
+        "587.6": 1.377,
+        "486.1": 1.381617
+      },
+      "nd": 1.377,
+      "vd": 57.1
+    },
+    {
+      "name": "Cornea back",
+      "radius_mm": 6.5,
+      "conic": -0.25,
+      "thickness_mm": 2.97,
+      "medium": "aqueous",
+      "index": {
+        "656.3": 1.335346,
+        "587.6": 1.337,
+        "486.1": 1.340844
+      },
+      "nd": 1.337,
+      "vd": 61.3
+    },
+    {
+      "name": "Lens front",
+      "radius_mm": 12.0,
+      "conic": -7.518749,
+      "thickness_mm": 3.767,
+      "medium": "lens",
+      "index": {
+        "656.3": 1.417566,
+        "587.6": 1.42,
+        "486.1": 1.425658
+      },
+      "nd": 1.42,
+      "vd": 51.9
+    },
+    {
+      "name": "Lens back",
+      "radius_mm": -5.224557,
+      "conic": -1.353971,
+      "thickness_mm": 16.713,
+      "medium": "vitreous",
+      "index": {
+        "656.3": 1.334346,
+        "587.6": 1.336,
+        "486.1": 1.339845
+      },
+      "nd": 1.336,
+      "vd": 61.1
+    },
+    {
+      "name": "Retina",
+      "radius_mm": -13.4,
+      "conic": 0.0,
+      "thickness_mm": null,
+      "medium": null,
+      "index": null,
+      "nd": null,
+      "vd": null
+    }
+  ],
+  "notes": [
+    "The model publishes nd and Vd for each medium. Indices at 656.3 and 486.1 nm come from a two-term Cauchy fit through nd and Vd: a model of the dispersion, not part of the published eye.",
+    "The stop (iris) is placed at the lens front surface."
+  ]
+}

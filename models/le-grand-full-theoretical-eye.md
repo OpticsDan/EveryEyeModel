@@ -3,6 +3,18 @@
 Four spherical surfaces: two for the cornea, two for the lens. A classic textbook eye for cardinal
 points and first-order checks.
 
+## Ray trace
+
+![Relaxed, 10° field](../images/le-grand-relaxed.png)
+
+*Relaxed, 10° field.*
+
+![Accommodated, 10° field](../images/le-grand-accommodated.png)
+
+*Accommodated, 10° field. The object is distant, so the rays focus in front of the retina.*
+
+Drawn to scale by an exact ray tracer from the prescription below: 4 mm entrance pupil, grey rays on axis, blue rays at the field angle shown, light from the left.
+
 ## Relaxed
 
 Indices as given in the source (single wavelength).
@@ -42,6 +54,9 @@ distance in front of it, and size it for the pupil you need.
 
 - [`data/le-grand-full-theoretical-eye.csv`](../data/le-grand-full-theoretical-eye.csv)
 - [`data/le-grand-accommodated.csv`](../data/le-grand-accommodated.csv)
+- le-grand-relaxed: [Zemax `.zmx`](../formats/zemax/le-grand-relaxed.zmx), [CODE V `.seq`](../formats/codev/le-grand-relaxed.seq), [JSON](../formats/json/le-grand-relaxed.json)
+- le-grand-accommodated: [Zemax `.zmx`](../formats/zemax/le-grand-accommodated.zmx), [CODE V `.seq`](../formats/codev/le-grand-accommodated.seq), [JSON](../formats/json/le-grand-accommodated.json)
+- Python: every model is in [`python/everyeyemodel.py`](../python/everyeyemodel.py).
 
 ## Sources
 
@@ -51,3 +66,8 @@ distance in front of it, and size it for the pupil you need.
   Visual Optics Lab, University of Arizona
   ([PDF](https://wp.optics.arizona.edu/visualopticslab/wp-content/uploads/sites/52/2021/08/Class02_21-Schematic-Eyes-Ametropia.pdf)),
   which labels the relaxed model "Gullstrand-LeGrand". Checked 2026-11-21.
+
+---
+
+*Written by AI (Claude, by Anthropic) at Dan Gray's direction, from the sources above. See
+[How this was made](../README.md#how-this-was-made).*

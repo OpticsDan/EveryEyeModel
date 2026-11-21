@@ -3,6 +3,8 @@
 Published schematic eye models, written out as lens prescriptions you can type into a lens design
 program.
 
+> **Written by AI.** The text, files, code and figures in this repository were written by an AI assistant (Claude, by Anthropic) at Dan Gray's direction. The prescriptions themselves are published data, each checked against the source named on its page; see [How this was made](#how-this-was-made).
+
 Every ophthalmoscope, fundus camera or retinal imager design has an eye in it. The model you choose
 for that eye decides which questions the design can answer. This repository collects the common
 published models in one consistent format, each with its source, so you can pick the right one and
@@ -29,6 +31,23 @@ or the specification needs it.
 | Le Grand full theoretical eye | 4 | no | no | relaxed and accommodated | [model](models/le-grand-full-theoretical-eye.md), [csv](data/le-grand-full-theoretical-eye.csv), [accommodated csv](data/le-grand-accommodated.csv) |
 | Arizona eye | 4 | conic | Abbe numbers | any level, by formula | [model](models/arizona-eye.md), [csv at 0 D](data/arizona-eye-0D.csv) |
 | Escudero-Sanz and Navarro wide-angle eye (1999) | 4 + curved retina | conic | indices at 4 wavelengths | no | [model](models/escudero-sanz-navarro-wide-angle-eye.md), [csv](data/escudero-sanz-navarro-wide-angle-eye.csv) |
+
+## Downloads: Python, Zemax and CODE V
+
+Every model is also ready to load, generated from the tables in `data/`:
+
+- **Python:** one standard-library file, [`python/everyeyemodel.py`](python/everyeyemodel.py), with
+  every model and the Arizona eye at any accommodation; plus one [JSON file](formats/json) per model.
+- **Zemax OpticStudio:** sequential [`.zmx` files](formats/zemax), stop at the iris, 4 mm entrance
+  pupil, real ray aiming.
+- **CODE V:** [`.seq` files](formats/codev) with a private glass per medium, exact at the published
+  wavelengths.
+
+Each model page also shows a to-scale ray trace of the eye ([`images/`](images)), drawn from its
+prescription by an exact ray tracer.
+
+[`formats/README.md`](formats/README.md) lists every file and says how each format handles the
+indices, the stop and dispersion, and what has not been checked yet.
 
 ## Still to add
 
@@ -80,6 +99,14 @@ against that source.
 Every value here is copied from the source named on its page and was checked against that source
 when added. If you find a difference from a primary source, open an issue with the reference. These
 are average, idealised eyes: none of them describes a particular person.
+
+## How this was made
+
+Every page, table, data file, generated format, script, test and figure here was written
+by an AI assistant (Claude, by Anthropic), directed by Dan Gray. Values were copied from the
+sources named on each model page and checked against them; where a check is still to do, the page
+says so. Treat it as you would any secondary source: confirm against the primary reference before
+relying on a number.
 
 ## Licence
 

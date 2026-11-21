@@ -10,6 +10,14 @@ A single ideal lens of about 60 dioptres standing in for the whole eye.
 | Aberrations | none |
 | Surfaces that reflect | none |
 
+## Ray trace
+
+![One ideal 60 D lens; every ray meets at one point](../images/paraxial-reduced-eye.png)
+
+*One ideal 60 D lens; every ray meets at one point. 10° field.*
+
+Drawn to scale by an exact ray tracer from the prescription below: 4 mm entrance pupil, grey rays on axis, blue rays at the field angle shown, light from the left.
+
 ## How to enter it
 
 - In most design programs: one paraxial (ideal) surface with focal length 16.67 mm, then
@@ -29,8 +37,17 @@ medium of index about 4/3, so that the image forms inside the eye at the right d
 stays near 60 D either way. Use the air form above for the simplest layout work, or a single-surface
 form when you need the image-space index.
 
+## Files
+
+- [JSON](../formats/json/paraxial-reduced-eye.json); every model is also in [`python/everyeyemodel.py`](../python/everyeyemodel.py).
+
 ## Source
 
 The 60 D paraxial eye is the standard first-order stand-in for the eye; see any visual optics
 text, for example D. A. Atchison and G. Smith, *Optics of the Human Eye* (Butterworth-Heinemann,
 2000), on reduced eyes.
+
+---
+
+*Written by AI (Claude, by Anthropic) at Dan Gray's direction, from the sources above. See
+[How this was made](../README.md#how-this-was-made).*

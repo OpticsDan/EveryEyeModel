@@ -4,6 +4,14 @@ Navarro's 1985 schematic eye turned into a wide-angle model by adding a curved r
 surfaces, with indices given at four wavelengths. Built to reproduce the eye's off-axis aberrations
 over a wide field, so it is the right choice when the field of view goes well past 45°.
 
+## Ray trace
+
+![40° field, 543 nm, landing on the curved retina](../images/escudero-sanz-navarro-wide-angle-eye.png)
+
+*40° field, 543 nm, landing on the curved retina.*
+
+Drawn to scale by an exact ray tracer from the prescription below: 4 mm entrance pupil, grey rays on axis, blue rays at the field angle shown, light from the left.
+
 ## Prescription
 
 | # | Surface | Radius (mm) | Conic K | Thickness to next (mm) | Medium after |
@@ -36,6 +44,8 @@ lens front surface. Size it for the entrance pupil your study needs; the example
 ## Files
 
 - [`data/escudero-sanz-navarro-wide-angle-eye.csv`](../data/escudero-sanz-navarro-wide-angle-eye.csv)
+- escudero-sanz-navarro-wide-angle-eye: [Zemax `.zmx`](../formats/zemax/escudero-sanz-navarro-wide-angle-eye.zmx), [CODE V `.seq`](../formats/codev/escudero-sanz-navarro-wide-angle-eye.seq), [JSON](../formats/json/escudero-sanz-navarro-wide-angle-eye.json)
+- Python: every model is in [`python/everyeyemodel.py`](../python/everyeyemodel.py).
 
 ## Sources
 
@@ -48,3 +58,8 @@ lens front surface. Size it for the entrance pupil your study needs; the example
 - Values here as implemented in the ZOSPy example "Escudero-Sanz eye model"
   ([documentation](https://zospy.readthedocs.io/en/latest/examples/Escudero-Sanz%20eye%20model/Escudero-Sanz%20eye%20model.html)).
   Checked 2026-11-21. Not yet checked line by line against the 1999 paper itself.
+
+---
+
+*Written by AI (Claude, by Anthropic) at Dan Gray's direction, from the sources above. See
+[How this was made](../README.md#how-this-was-made).*
