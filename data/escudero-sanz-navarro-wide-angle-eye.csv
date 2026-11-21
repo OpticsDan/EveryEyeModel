@@ -1,0 +1,6 @@
+surface,name,radius_mm,conic_K,thickness_mm,medium_after,n_458nm,n_543nm,n_589_3nm,n_632_8nm
+1,cornea front,7.72,-0.26,0.55,cornea,1.3828,1.3777,1.376,1.3747
+2,cornea back,6.50,0,3.05,aqueous,1.3445,1.3391,1.3374,1.336
+3,lens front,10.20,-3.1316,4.00,lens,1.4292,1.4222,1.42,1.4183
+4,lens back,-6.00,-1.0,16.3202,vitreous,1.3428,1.3377,1.336,1.3347
+5,retina,-12.00,0,,,,,,
