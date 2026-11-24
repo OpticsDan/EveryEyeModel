@@ -41,9 +41,10 @@ the relaxed eye above, and its lens values are those of Le Grand's accommodated 
 | 1 | Cornea front | 7.8 | 1.3771 | 0.55 |
 | 2 | Cornea back | 6.5 | 1.3374 | 2.65 |
 | 3 | Lens front | 6.0 | 1.4270 | 4.50 |
-| 4 | Lens back | −5.5 | 1.3360 | 16.497 |
+| 4 | Lens back | −5.5 | 1.3360 | 16.49655 |
 
 The source gives no retina radius for the accommodated form; use the relaxed retina, −13.4 mm.
+The thicknesses sum to 24.19655 mm, the same axial length as the relaxed eye.
 
 ## Where the stop goes
 
@@ -66,6 +67,9 @@ distance in front of it, and size it for the pupil you need.
   Visual Optics Lab, University of Arizona
   ([PDF](https://wp.optics.arizona.edu/visualopticslab/wp-content/uploads/sites/52/2021/08/Class02_21-Schematic-Eyes-Ametropia.pdf)),
   which labels the relaxed model "Gullstrand-LeGrand". Checked 2026-11-21.
+- D. A. Atchison and G. Smith, *Optics of the Human Eye* (Butterworth-Heinemann, 2000), appendix A3.
+  Cross-checked 2026-11-24: same radii, thicknesses and indices; power 59.940 D relaxed and
+  67.677 D accommodated, which this prescription reproduces. That appendix gives no retina radius.
 
 ---
 

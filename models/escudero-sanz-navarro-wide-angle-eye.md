@@ -19,10 +19,10 @@ Drawn to scale by an exact ray tracer from the prescription below: 4 mm entrance
 | 1 | Cornea front | 7.72 | −0.26 | 0.55 | cornea |
 | 2 | Cornea back | 6.50 | 0 | 3.05 | aqueous |
 | 3 | Lens front | 10.20 | −3.1316 | 4.00 | lens |
-| 4 | Lens back | −6.00 | −1.0 | 16.3202 | vitreous |
+| 4 | Lens back | −6.00 | −1.0 | 16.3203 | vitreous |
 | 5 | Retina | −12.00 | 0 | — | — |
 
-Axial length: 23.9202 mm (sum of thicknesses).
+Axial length: 23.9203 mm (sum of thicknesses).
 
 ## Refractive indices
 
@@ -57,7 +57,13 @@ lens front surface. Size it for the entrance pupil your study needs; the example
   [doi:10.1364/JOSAA.2.001273](https://doi.org/10.1364/JOSAA.2.001273), the eye it is built on.
 - Values here as implemented in the ZOSPy example "Escudero-Sanz eye model"
   ([documentation](https://zospy.readthedocs.io/en/latest/examples/Escudero-Sanz%20eye%20model/Escudero-Sanz%20eye%20model.html)).
-  Checked 2026-11-21. Not yet checked line by line against the 1999 paper itself.
+  Checked 2026-11-21.
+- D. A. Atchison and G. Smith, *Optics of the Human Eye* (Butterworth-Heinemann, 2000), appendix A3,
+  which tabulates the 1985 Navarro eye. Cross-checked 2026-11-24: radii, conics, the first three
+  thicknesses, the retina radius and the 589.3 nm indices agree, and so does the power, 60.416 D.
+  The vitreous differs by design: the 1999 model refocuses at 543 nm, and 16.3203 mm is the
+  paraxial focus there. The indices at 458, 543 and 632.8 nm are not in that appendix and remain
+  unchecked against the paper.
 
 ---
 

@@ -51,7 +51,7 @@ MODELS = {
  "le-grand-relaxed": {
   "id": "le-grand-relaxed",
   "title": "Le Grand full theoretical eye, relaxed",
-  "source": "Y. Le Grand and S. G. El Hage, Physiological Optics (Springer, 1980); values as tabulated in J. Schwiegerling, 'Schematic Eyes and Ametropia', University of Arizona course notes. See models/le-grand-full-theoretical-eye.md.",
+  "source": "Y. Le Grand and S. G. El Hage, Physiological Optics (Springer, 1980); values as tabulated in J. Schwiegerling, 'Schematic Eyes and Ametropia', University of Arizona course notes. Cross-checked against Atchison and Smith (2000), appendix A3: same radii, thicknesses and indices; power 59.940 D relaxed and 67.677 D accommodated, which this prescription reproduces. That appendix gives no retina radius. See models/le-grand-full-theoretical-eye.md.",
   "wavelengths_nm": [
    587.6
   ],
@@ -115,7 +115,7 @@ MODELS = {
  "le-grand-accommodated": {
   "id": "le-grand-accommodated",
   "title": "Le Grand full theoretical eye, accommodated",
-  "source": "Y. Le Grand and S. G. El Hage, Physiological Optics (Springer, 1980); values as tabulated in J. Schwiegerling, 'Schematic Eyes and Ametropia', University of Arizona course notes. See models/le-grand-full-theoretical-eye.md.",
+  "source": "Y. Le Grand and S. G. El Hage, Physiological Optics (Springer, 1980); values as tabulated in J. Schwiegerling, 'Schematic Eyes and Ametropia', University of Arizona course notes. Cross-checked against Atchison and Smith (2000), appendix A3: same radii, thicknesses and indices; power 59.940 D relaxed and 67.677 D accommodated, which this prescription reproduces. That appendix gives no retina radius. See models/le-grand-full-theoretical-eye.md.",
   "wavelengths_nm": [
    587.6
   ],
@@ -156,7 +156,7 @@ MODELS = {
     "name": "Lens back",
     "radius_mm": -5.5,
     "conic": 0.0,
-    "thickness_mm": 16.497,
+    "thickness_mm": 16.49655,
     "medium": "vitreous",
     "index": {
      "587.6": 1.336
@@ -520,7 +520,7 @@ MODELS = {
  "escudero-sanz-navarro-wide-angle-eye": {
   "id": "escudero-sanz-navarro-wide-angle-eye",
   "title": "Escudero-Sanz and Navarro wide-angle eye (1999)",
-  "source": "I. Escudero-Sanz and R. Navarro, J. Opt. Soc. Am. A 16(8), 1881-1891 (1999); values as in the ZOSPy example implementation, not yet checked against the paper. See models/escudero-sanz-navarro-wide-angle-eye.md.",
+  "source": "I. Escudero-Sanz and R. Navarro, J. Opt. Soc. Am. A 16(8), 1881-1891 (1999); values as in the ZOSPy example implementation. Cross-checked against Atchison and Smith (2000), appendix A3, which tabulates the 1985 Navarro eye this model is built on: radii, conics, the first three thicknesses, the retina radius and the 589.3 nm indices agree, and so does the power, 60.416 D. The vitreous differs by design: the 1999 model refocuses at 543 nm, and 16.3203 mm is the paraxial focus there. The indices at 458, 543 and 632.8 nm are not in that appendix and remain unchecked against the paper. See models/escudero-sanz-navarro-wide-angle-eye.md.",
   "wavelengths_nm": [
    458.0,
    543.0,
@@ -573,7 +573,7 @@ MODELS = {
     "name": "Lens back",
     "radius_mm": -6.0,
     "conic": -1.0,
-    "thickness_mm": 16.3202,
+    "thickness_mm": 16.3203,
     "medium": "vitreous",
     "index": {
      "458.0": 1.3428,
