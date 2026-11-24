@@ -1,7 +1,7 @@
 {
   "id": "escudero-sanz-navarro-wide-angle-eye",
   "title": "Escudero-Sanz and Navarro wide-angle eye (1999)",
-  "source": "I. Escudero-Sanz and R. Navarro, J. Opt. Soc. Am. A 16(8), 1881-1891 (1999); values as in the ZOSPy example implementation, not yet checked against the paper. See models/escudero-sanz-navarro-wide-angle-eye.md.",
+  "source": "I. Escudero-Sanz and R. Navarro, J. Opt. Soc. Am. A 16(8), 1881-1891 (1999); values as in the ZOSPy example implementation. Cross-checked against Atchison and Smith (2000), appendix A3, which tabulates the 1985 Navarro eye this model is built on: radii, conics, the first three thicknesses, the retina radius and the 589.3 nm indices agree, and so does the power, 60.416 D. The vitreous differs by design: the 1999 model refocuses at 543 nm, and 16.3203 mm is the paraxial focus there. The indices at 458, 543 and 632.8 nm are not in that appendix and remain unchecked against the paper. See models/escudero-sanz-navarro-wide-angle-eye.md.",
   "wavelengths_nm": [
     458.0,
     543.0,
@@ -54,7 +54,7 @@
       "name": "Lens back",
       "radius_mm": -6.0,
       "conic": -1.0,
-      "thickness_mm": 16.3202,
+      "thickness_mm": 16.3203,
       "medium": "vitreous",
       "index": {
         "458.0": 1.3428,

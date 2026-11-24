@@ -32,11 +32,19 @@ D, F, C = 0.5876, 0.4861, 0.6563  # d, F and C lines, micrometres
 SOURCES = {
     "legrand": ("Y. Le Grand and S. G. El Hage, Physiological Optics (Springer, 1980); values as "
                 "tabulated in J. Schwiegerling, 'Schematic Eyes and Ametropia', University of Arizona "
-                "course notes. See models/le-grand-full-theoretical-eye.md."),
+                "course notes. Cross-checked against Atchison and Smith (2000), appendix A3: same radii, "
+                "thicknesses and indices; power 59.940 D relaxed and 67.677 D accommodated, which this "
+                "prescription reproduces. That appendix gives no retina radius. "
+                "See models/le-grand-full-theoretical-eye.md."),
     "arizona": ("J. Schwiegerling, Field Guide to Visual and Ophthalmic Optics (SPIE Press, 2004); values "
                 "as tabulated in his University of Arizona course notes. See models/arizona-eye.md."),
     "navarro": ("I. Escudero-Sanz and R. Navarro, J. Opt. Soc. Am. A 16(8), 1881-1891 (1999); values as in "
-                "the ZOSPy example implementation, not yet checked against the paper. See "
+                "the ZOSPy example implementation. Cross-checked against Atchison and Smith (2000), appendix "
+                "A3, which tabulates the 1985 Navarro eye this model is built on: radii, conics, the "
+                "first three thicknesses, the retina radius and the 589.3 nm indices agree, and so does "
+                "the power, 60.416 D. The vitreous differs by design: the 1999 model refocuses at "
+                "543 nm, and 16.3203 mm is the paraxial focus there. The indices at 458, 543 and "
+                "632.8 nm are not in that appendix and remain unchecked against the paper. See "
                 "models/escudero-sanz-navarro-wide-angle-eye.md."),
     "paraxial": "The standard 60 D reduced eye. See models/paraxial-reduced-eye.md.",
 }

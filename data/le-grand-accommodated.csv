@@ -2,5 +2,5 @@ surface,name,radius_mm,conic_K,thickness_mm,medium_after,index_after
 1,cornea front,7.8,0,0.55,cornea,1.3771
 2,cornea back,6.5,0,2.65,aqueous,1.3374
 3,lens front,6.0,0,4.50,lens,1.4270
-4,lens back,-5.5,0,16.497,vitreous,1.3360
+4,lens back,-5.5,0,16.49655,vitreous,1.3360
 5,retina,-13.4,0,,,

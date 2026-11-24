@@ -4,9 +4,10 @@ tags: [optics, eye-model, reference, promote-common]
 sources:
   - "J. Schwiegerling, 'Schematic Eyes and Ametropia', OPTI course notes, Visual Optics Lab, University of Arizona (PDF, wp.optics.arizona.edu), read 2026-11-21: Le Grand relaxed and accommodated, Arizona eye with accommodation formulas"
   - "J. Schwiegerling, Field Guide to Visual and Ophthalmic Optics (SPIE Press, 2004): Arizona eye, as published"
-  - "I. Escudero-Sanz and R. Navarro, J. Opt. Soc. Am. A 16(8), 1881-1891 (1999): wide-angle eye; values as in the ZOSPy example implementation, not yet checked against the paper"
+  - "I. Escudero-Sanz and R. Navarro, J. Opt. Soc. Am. A 16(8), 1881-1891 (1999): wide-angle eye; values as in the ZOSPy example implementation, cross-checked 2026-11-24 against Atchison and Smith (2000), appendix A3 (all but the indices at 458, 543 and 632.8 nm)"
+  - "D. A. Atchison and G. Smith, Optics of the Human Eye (Butterworth-Heinemann, 2000), appendix A3, checked 2026-11-24: Le Grand relaxed and accommodated; the 1985 Navarro eye behind the wide-angle model"
   - "Paraxial values computed 2026-11-21 by two independent ray tracers, both agreeing with OpticStudio 26.1 SP4"
-last_synced: 2026-11-21
+last_synced: 2026-11-24
 confidence: verified
 status: active
 ---
@@ -35,7 +36,7 @@ at the lens front surface in every model here.
 | Cornea front | 7.8 | 0.55 | 7.8 | 0.55 | 1.3771 |
 | Cornea back | 6.5 | 3.05 | 6.5 | 2.65 | 1.3374 |
 | Lens front | 10.2 | 4.0 | 6.0 | 4.50 | 1.42 (relaxed), 1.4270 (accommodated) |
-| Lens back | −6.0 | 16.59655 | −5.5 | 16.497 | 1.336 |
+| Lens back | −6.0 | 16.59655 | −5.5 | 16.49655 | 1.336 |
 | Retina | −13.4 | | −13.4 (relaxed value; source gives none) | | |
 
 All surfaces spherical. Power 59.94 D relaxed, 67.68 D accommodated.
@@ -60,7 +61,7 @@ follows −A to within 0.06 D from 0 to 8 D.
 | Cornea front | 7.72 | −0.26 | 0.55 | cornea |
 | Cornea back | 6.50 | 0 | 3.05 | aqueous |
 | Lens front | 10.20 | −3.1316 | 4.00 | lens |
-| Lens back | −6.00 | −1.0 | 16.3202 | vitreous |
+| Lens back | −6.00 | −1.0 | 16.3203 | vitreous |
 | Retina | −12.00 | 0 | | |
 
 | Medium | 458 nm | 543 nm | 589.3 nm | 632.8 nm |
@@ -82,5 +83,5 @@ accommodated 14.776; Arizona 0 D 16.495, 2 D 15.859, 4 D 15.278, 6 D 14.748; wid
 
 ## Not checked
 
-The wide-angle eye's values against the 1999 paper itself. Gullstrand No. 1, Gullstrand-Emsley and
+The wide-angle eye's indices at 458, 543 and 632.8 nm against the 1999 paper itself (Atchison and Smith, appendix A3, has only the 589.3 nm set). Gullstrand No. 1, Gullstrand-Emsley and
 Liou-Brennan are not included: no source with their full tables was read.
